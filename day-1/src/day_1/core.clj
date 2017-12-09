@@ -1,21 +1,19 @@
 (ns day-1.core
   (:gen-class))
 
-(def test-match '((1 2 3) (2 3 3) (3 3 4) (3 4 1)))
-
 (defn read-input [file]
   (map #(Integer/parseInt %)
         (butlast (clojure.string/split
                    (slurp file) #""))))
 
-(defn is-match [pair]
-  (if (== (first pair) (second pair))
-     (first pair)
+(defn is-match [a b]
+  (if (== a b)
+     a
      0))
 
 (defn find-consecutive-matches [digits]
-  (into (map is-match (partition 2 1 digits))
-        (map is-match (partition 2 2 digits))))
+  (for [[a b] (partition 2 1 digits)]
+    (is-match a b)))
 
 (defn check-first-last [digits]
   (if (= (first digits) (last digits))
