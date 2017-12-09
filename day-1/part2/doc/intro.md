@@ -1,3 +1,3 @@
-# Introduction to day-1
+# Introduction to part2
 
 TODO: write [great documentation](http://jacobian.org/writing/what-to-write/)
