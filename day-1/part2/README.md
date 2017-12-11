@@ -1,36 +1,17 @@
-# part2
+# --- Part Two ---
 
-FIXME: description
+You notice a progress bar that jumps to 50% completion. Apparently, the door isn't yet satisfied, but it did emit a star as encouragement. The instructions change:
 
-## Installation
+Now, instead of considering the next digit, it wants you to consider the digit halfway around the circular list. That is, if your list contains 10 items, only include a digit in your sum if the digit 10/2 = 5 steps forward matches it. Fortunately, your list has an even number of elements.
 
-Download from http://example.com/FIXME.
+For example:
 
-## Usage
+    1212 produces 6: the list contains 4 items, and all four digits match the digit 2 items ahead.
+    1221 produces 0, because every comparison is between a 1 and a 2.
+    123425 produces 4, because both 2s match each other, but no other digit has a match.
+    123123 produces 12.
+    12131415 produces 4.
 
-FIXME: explanation
+What is the solution to your new captcha?
 
-    $ java -jar part2-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Your puzzle answer was 1232.

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36e0dbec-1dca-4095-848b-e9c7e7ec7535" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day-1/part2/README.md" afterPath="$PROJECT_DIR$/day-1/part2/README.md" />
-    </list>
+    <list default="true" id="faed7ceb-5c91-43ec-8a5a-41cf79847d45" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +16,18 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Clojure Namespace" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/part1/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -39,13 +37,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Day 1/core.clj" />
-        <option value="$PROJECT_DIR$/day 1/src/day 1/core.clj" />
-        <option value="$PROJECT_DIR$/day-1/src/day_1/core.clj" />
-        <option value="$PROJECT_DIR$/day-1-part1/src/day_1_part1/core.clj" />
-        <option value="$PROJECT_DIR$/day-1-part1/README.md" />
-        <option value="$PROJECT_DIR$/its-a-new-day.ps1" />
-        <option value="$PROJECT_DIR$/day-1/part2/README.md" />
+        <option value="$PROJECT_DIR$/src/part1/core.clj" />
       </list>
     </option>
   </component>
@@ -60,9 +52,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -83,39 +72,41 @@
         <subPane>
           <expand>
             <path>
-              <item name="advent-of-code-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day-2/part1" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Repos\advent-of-code-2017\day-1-part1\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Repos\advent-of-code-2017\day-1" />
-      <recent name="D:\Repos\advent-of-code-2017\day-1\resources" />
-      <recent name="D:\Repos\advent-of-code-2017" />
-    </key>
-  </component>
+  <component name="ReplState" timestamp="1512969960609">{:repl-history {:ide [], :local [{:command &quot;(-main \&quot;resources/input\&quot;)&quot;, :offset 25, :ns &quot;part1.core&quot;} {:command &quot;(map #(Integer/parseInt %)\n     (butlast (clojure.string/split\n                (slurp file) #\&quot; \&quot;)))&quot;, :offset 99, :ns &quot;part1.core&quot;} {:command &quot;(map #(Integer/parseInt %)\n     (butlast (clojure.string/split\n                (slurp \&quot;resources/input\&quot;) #\&quot; \&quot;)))&quot;, :offset 112, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split\n  (slurp \&quot;resources/input\&quot;) #\&quot; \&quot;)&quot;, :offset 55, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split\n  (slurp \&quot;resources/input\&quot;) #\&quot;\\t\&quot;)&quot;, :offset 56, :ns &quot;part1.core&quot;} {:command &quot;(butlast (clojure.string/split\n           (slurp \&quot;resources/input\&quot;) #\&quot; \&quot;))&quot;, :offset 74, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split-lines (slurp \&quot;resources/input\&quot;))&quot;, :offset 54, :ns &quot;part1.core&quot;} {:command &quot;(map #(Integer/parseInt %) (clojure.string/split (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;)))&quot;, :offset 112, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;)&quot;, :offset 83, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;)&quot;, :offset 61, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;))&quot;, :offset 62, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;&quot;, :offset 60, :ns &quot;part1.core&quot;} {:command &quot;(map clojure.string/split (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;)&quot;, :offset 87, :ns &quot;part1.core&quot;} {:command &quot;(apply clojure.string/split (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)) #\&quot;\\t\&quot;)&quot;, :offset 89, :ns &quot;part1.core&quot;} {:command &quot;(map (partial clojure.string/split #\&quot;\\t\&quot;) (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)))&quot;, :offset 97, :ns &quot;part1.core&quot;} {:command &quot;(map #(clojure.string/split % \&quot;\\t\&quot;) (clojure.string/split-lines (slurp \&quot;resources/input\&quot;)))&quot;, :offset 91, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/split-lines \&quot;resources/input\&quot;)&quot;, :offset 46, :ns &quot;part1.core&quot;} {:command &quot;(apply (clojure.string/split) (read-input \&quot;resources/input\&quot;) #\&quot;\\t\&quot;)&quot;, :offset 67, :ns &quot;part1.core&quot;} {:command &quot;(apply (clojure.string/split % #\&quot;\\t\&quot;) (read-input \&quot;resources/input\&quot;))&quot;, :offset 69, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  ((clojure.string/split line #\&quot;\\t\&quot;)))&quot;, :offset 83, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  (clojure.string/split line #\&quot;\\t\&quot;))&quot;, :offset 81, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  ((println clojure.string/split line #\&quot;\\t\&quot;)))&quot;, :offset 91, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  (println (clojure.string/split line #\&quot;\\t\&quot;)))&quot;, :offset 91, :ns &quot;part1.core&quot;} {:command &quot;(for [line (read-input \&quot;resources/input\&quot;)]\n  (-&gt;&gt; (clojure.string/split line #\&quot;\\t\&quot;)\n       (map #(Integer/parseInt %))\n       (conj)))&quot;, :offset 134, :ns &quot;part1.core&quot;} {:command &quot;(+ 1 1)&quot;, :offset 7, :ns &quot;part1.core&quot;} {:command &quot;(for [line (read-input \&quot;resources/input\&quot;)]\n  (conj (map #(Integer/parseInt %) (clojure.string/split line #\&quot;\\t\&quot;))))&quot;, :offset 114, :ns &quot;part1.core&quot;} {:command &quot;(for [line (read-input \&quot;resources/input\&quot;)]\n  (conj (clojure.string/split line #\&quot;\\t\&quot;)))&quot;, :offset 86, :ns &quot;part1.core&quot;} {:command &quot;print l&quot;, :offset 7} {:command &quot;(for [line (read-input \&quot;resources/input\&quot;)]\n  (print line))&quot;, :offset 58, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  (conj (clojure.string/split line #\&quot;\\t\&quot;)))&quot;, :offset 88, :ns &quot;part1.core&quot;} {:command &quot;(doseq [line (read-input \&quot;resources/input\&quot;)]\n  (println line))&quot;, :offset 62, :ns &quot;part1.core&quot;} {:command &quot;(read-input \&quot;resources/input\&quot;)&quot;, :offset 30, :ns &quot;part1.core&quot;} {:command &quot;(for [line (clojure.string/split-lines (slurp \&quot;resources/input\&quot;))]\n  (-&gt;&gt; (clojure.string/split line #\&quot;\\t\&quot;)\n       (map #(Integer/parseInt %))\n       (conj)))&quot;, :offset 158, :ns &quot;part1.core&quot;} {:command &quot;(map print (read-input \&quot;resources/input\&quot;))&quot;, :offset 42, :ns &quot;part1.core&quot;} {:command &quot;(first (read-input \&quot;resources/input\&quot;))&quot;, :offset 38, :ns &quot;part1.core&quot;} {:command &quot;(max (first (read-input \&quot;resources/input\&quot;)))&quot;, :offset 44, :ns &quot;part1.core&quot;} {:command &quot;(map checksum-row (read-input \&quot;resources/input\&quot;))&quot;, :offset 49, :ns &quot;part1.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -130,11 +121,11 @@
   </component>
   <component name="RunManager" selected="Clojure REPL.Unnamed">
     <configuration name="Unnamed" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="0" />
-      <module name="advent-of-code-2017" />
+      <setting name="replType" value="1" />
+      <module name="part1" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
-      <setting name="workingDir" value="D:\Repos\advent-of-code-2017\day-1" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
       <setting name="profiles" value="" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -218,74 +209,24 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="advent-of-code-2017" />
-      <setting name="path" value="$PROJECT_DIR$/Day 1/core.clj" />
-      <setting name="namespace" value="" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/Day 1" />
-    </configuration>
-    <configuration name="day-1.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="advent-of-code-2017" />
-      <setting name="path" value="" />
-      <setting name="namespace" value="day-1.core" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="day" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="advent-of-code-2017" />
-      <setting name="path" value="" />
-      <setting name="namespace" value="day" />
-      <setting name="useLein" value="false" />
-      <setting name="profiles" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$" />
-    </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Application.core" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Application.day" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Application.day-1.core" />
-    </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Clojure Application.day-1.core" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application.day" />
-        <item index="2" class="java.lang.String" itemvalue="Clojure Application.core" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36e0dbec-1dca-4095-848b-e9c7e7ec7535" name="Default" comment="" />
-      <created>1512432817666</created>
+      <changelist id="faed7ceb-5c91-43ec-8a5a-41cf79847d45" name="Default" comment="" />
+      <created>1512966034929</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1512432817666</updated>
-      <workItem from="1512432819062" duration="787000" />
-      <workItem from="1512780087604" duration="487000" />
-      <workItem from="1512780593438" duration="552000" />
-      <workItem from="1512784649663" duration="1507000" />
-      <workItem from="1512795129845" duration="29000" />
-      <workItem from="1512966012264" duration="25000" />
+      <updated>1512966034929</updated>
+      <workItem from="1512966038081" duration="3570000" />
+      <workItem from="1512969627767" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3387000" />
+    <option name="totallyTimeSpent" value="3903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -297,27 +238,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46219382" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1970181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,134 +272,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/its-a-new-day.ps1">
+    <entry file="file://$PROJECT_DIR$/src/part1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/input">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day-1/src/day_1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/its-a-new-day.ps1">
+    <entry file="file://$PROJECT_DIR$/src/part1/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-1/src/day_1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/day-1/resources/input" />
-    <entry file="file://$PROJECT_DIR$/Day 1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/day 1/src/day 1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/day-1/project.clj" />
-    <entry file="file://$PROJECT_DIR$/day-1/README.md" />
-    <entry file="file://$PROJECT_DIR$/day-1/day-1-part1/resources/input" />
-    <entry file="file://$PROJECT_DIR$/day-1/day-1-part1/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/day-1/day-1-part1/README.md" />
-    <entry file="file://$PROJECT_DIR$/day-1/day-1-part1/src/day_1_part1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/day-1/src/day_1/core.clj" />
-    <entry file="file://$PROJECT_DIR$/test" />
-    <entry file="file://$PROJECT_DIR$/day-2/part1/resources/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/its-a-new-day.ps1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day-1/part2/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="390">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>advent-of-code-2017</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
