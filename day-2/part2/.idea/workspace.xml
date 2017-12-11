@@ -20,8 +20,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/part2/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,17 +86,6 @@
               <item name="part2" type="b2602c69:ProjectViewProjectNode" />
               <item name="part2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -110,9 +99,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ReplState" timestamp="1512971161067">{:repl-history {:ide [], :local [{:command &quot;(combo/permutations '(1 2 3))&quot;, :offset 29, :ns &quot;part2.core&quot;} {:command &quot;(combo/combinations '(1 2 3) 2)&quot;, :offset 31, :ns &quot;part2.core&quot;} {:command &quot;(find-divisible)&quot;, :offset 16, :ns &quot;part2.core&quot;} {:command &quot;(-main \&quot;resources/input\&quot;)&quot;, :offset 25, :ns &quot;part2.core&quot;} {:command &quot;(map divide-pair (combo/combinations (5 9 2 8) 2))&quot;, :offset 50, :ns &quot;part2.core&quot;} {:command &quot;(map divide-pair (combo/combinations '(5 9 2 8) 2))&quot;, :offset 51, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (comp nil?)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 92, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (some?)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 88, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (some? val)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 92, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter some?\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 86, :ns &quot;part2.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1512972315232">{:repl-history {:ide [], :local [{:command &quot;(combo/permutations '(1 2 3))&quot;, :offset 29, :ns &quot;part2.core&quot;} {:command &quot;(combo/combinations '(1 2 3) 2)&quot;, :offset 31, :ns &quot;part2.core&quot;} {:command &quot;(find-divisible)&quot;, :offset 16, :ns &quot;part2.core&quot;} {:command &quot;(map divide-pair (combo/combinations (5 9 2 8) 2))&quot;, :offset 50, :ns &quot;part2.core&quot;} {:command &quot;(map divide-pair (combo/combinations '(5 9 2 8) 2))&quot;, :offset 51, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (comp nil?)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 92, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (some?)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 88, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter (some? val)\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 92, :ns &quot;part2.core&quot;} {:command &quot;(first\n  (filter some?\n          (map divide-pair (combo/combinations '(5 9 2 8) 2))))&quot;, :offset 86, :ns &quot;part2.core&quot;} {:command &quot;(-main \&quot;resources/input\&quot;)&quot;, :offset 25, :ns &quot;part2.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -226,15 +215,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512970006919</updated>
-      <workItem from="1512970010794" duration="1150000" />
+      <workItem from="1512970010794" duration="1854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1150000" />
+    <option name="totallyTimeSpent" value="1854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -243,7 +233,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41533548" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41533548" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -287,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/part2/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
