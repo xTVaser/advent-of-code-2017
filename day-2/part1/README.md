@@ -1,36 +1,21 @@
-# part1
+# --- Day 2: Corruption Checksum ---
 
-FIXME: description
+As you walk through the door, a glowing humanoid shape yells in your direction. "You there! Your state appears to be idle. Come help us repair the corruption in this spreadsheet - if we take another millisecond, we'll have to display an hourglass cursor!"
 
-## Installation
+The spreadsheet consists of rows of apparently-random numbers. To make sure the recovery process is on the right track, they need you to calculate the spreadsheet's checksum. For each row, determine the difference between the largest value and the smallest value; the checksum is the sum of all of these differences.
 
-Download from http://example.com/FIXME.
+For example, given the following spreadsheet:
 
-## Usage
+5 1 9 5
+7 5 3
+2 4 6 8
 
-FIXME: explanation
+    The first row's largest and smallest values are 9 and 1, and their difference is 8.
+    The second row's largest and smallest values are 7 and 3, and their difference is 4.
+    The third row's difference is 6.
 
-    $ java -jar part1-0.1.0-standalone.jar [args]
+In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
 
-## Options
+What is the checksum for the spreadsheet in your puzzle input?
 
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Your puzzle answer was 36766.
