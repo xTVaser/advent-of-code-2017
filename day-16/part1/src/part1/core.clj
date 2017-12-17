@@ -1,8 +1,6 @@
 (ns part1.core
   (:gen-class))
 
-(def test-steps ["s1", "x3/4", "pe/b"])
-
 (defn char-range [start end]
   (map char (range (int start) (inc (int end)))))
 
