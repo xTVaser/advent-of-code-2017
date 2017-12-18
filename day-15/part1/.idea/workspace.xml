@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92908916-56e2-4da3-9a05-5f61dabbf910" name="Default" comment="" />
+    <list default="true" id="ef23aa8d-a109-4a43-a2f4-d4e9dd337dba" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +18,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/part2/core.clj">
+        <entry file="file://$PROJECT_DIR$/src/part1/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/input">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,7 +47,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/part2/core.clj" />
+        <option value="$PROJECT_DIR$/src/part1/core.clj" />
       </list>
     </option>
   </component>
@@ -69,39 +79,44 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1513545358794">{:repl-history {:ide [], :local [{:command &quot;(-main 50000000)&quot;, :offset 16, :ns &quot;part2.core&quot;} {:command &quot;(-main 3)&quot;, :offset 9, :ns &quot;part2.core&quot;} {:command &quot;(-main 366)&quot;, :offset 11, :ns &quot;part2.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1513560315680">{:repl-history {:ide [], :local [{:command &quot;(int 1)&quot;, :offset 7, :ns &quot;part1.core&quot;} {:command &quot;(int 2147483647)&quot;, :offset 16, :ns &quot;part1.core&quot;} {:command &quot;(int 2147483648)&quot;, :offset 16, :ns &quot;part1.core&quot;} {:command &quot;(Integer/toString 10 2)&quot;, :offset 23, :ns &quot;part1.core&quot;} {:command &quot;(split-at 2 (Integer/toString 10 2))&quot;, :offset 36, :ns &quot;part1.core&quot;} {:command &quot;(.substring (Integer/toString 10 2))&quot;, :offset 36, :ns &quot;part1.core&quot;} {:command &quot;(.substring 2 (Integer/toString 10 2))&quot;, :offset 38, :ns &quot;part1.core&quot;} {:command &quot;(subs 2 (Integer/toString 10 2))&quot;, :offset 32, :ns &quot;part1.core&quot;} {:command &quot;(subs (Integer/toString 10 2) 2)&quot;, :offset 32, :ns &quot;part1.core&quot;} {:command &quot;(subs (Integer/toString 11 2) 2)&quot;, :offset 32, :ns &quot;part1.core&quot;} {:command &quot;(Integer/toString 11 2)&quot;, :offset 23, :ns &quot;part1.core&quot;} {:command &quot;(format \&quot;%32s\&quot; (Integer/toBinaryString 11))&quot;, :offset 43, :ns &quot;part1.core&quot;} {:command &quot;(format \&quot;%32s\&quot; (Integer/toBinaryString 11)).replace()&quot;, :offset 53, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/replace (format \&quot;%32s\&quot; (Integer/toBinaryString 11) #\&quot; \&quot; \&quot;0\&quot;))&quot;, :offset 77, :ns &quot;part1.core&quot;} {:command &quot;(clojure.string/replace (format \&quot;%32s\&quot; (Integer/toBinaryString 11)) #\&quot; \&quot; \&quot;0\&quot;)&quot;, :offset 77, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (println valA)\n        (println valB)\n        (recur valA valB (inc iter)))\n      ))))&quot;, :offset 309, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (println valA)\n        (println valB)\n        (recur valA valB (inc iter))))))&quot;, :offset 301, :ns &quot;part1.core&quot;} {:command &quot;(defn compute-val [mul n]\n  (mod (* mul n) 2147483647))\n\n(defn gen-16bit [n]\n  (subs (clojure.string/replace\n          (format \&quot;%32s\&quot; (Integer/toBinaryString 11))\n          #\&quot; \&quot; \&quot;0\&quot;)\n        16))\n\n(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (println valA)\n        (println valB)\n        (recur valA valB (inc iter))))))&quot;, :offset 498, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (println valA)\n        (print valB)\n        (recur valA valB (inc iter))))))&quot;, :offset 299, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (print valA)\n        (println valB)\n        (recur valA valB (inc iter))))))&quot;, :offset 299, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (loop [initA initA\n         initB initB\n         iter 0]\n    (when (&lt; iter iterations)\n      (let [valA (compute-val 16807 initA)\n            valB (compute-val 48271 initB)]\n        (print valA \&quot; \&quot;)\n        (println valB)\n        (recur valA valB (inc iter))))))&quot;, :offset 303, :ns &quot;part1.core&quot;} {:command &quot;(gen-16bit 1092455)&quot;, :offset 19, :ns &quot;part1.core&quot;} {:command &quot;(gen-16bit 430625591)&quot;, :offset 21, :ns &quot;part1.core&quot;} {:command &quot;(defn gen-16bit [n]\n  (subs (clojure.string/replace\n          (format \&quot;%32s\&quot; (Integer/toBinaryString n))\n          #\&quot; \&quot; \&quot;0\&quot;)\n        16))&quot;, :offset 137, :ns &quot;part1.core&quot;} {:command &quot;(defn process [initA initB iterations]\n  (let [counter (atom 0)]\n    (loop [initA initA\n           initB initB\n           iter 0]\n      (when (&lt; iter iterations)\n        (let [valA (compute-val 16807 initA)\n              valB (compute-val 48271 initB)]\n          (print valA \&quot; \&quot;)\n          (println valB)\n          (when (= (gen-16bit valA) (gen-16bit valB))\n            (swap! counter inc))\n          (recur valA valB (inc iter)))))\n    (deref counter)))&quot;, :offset 455, :ns &quot;part1.core&quot;} {:command &quot;(process 65 8921 5)&quot;, :offset 19, :ns &quot;part1.core&quot;} {:command &quot;(process 277 349 40000000)&quot;, :offset 26, :ns &quot;part1.core&quot;} {:command &quot;(-main)&quot;, :offset 7, :ns &quot;part1.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -117,7 +132,7 @@
   <component name="RunManager" selected="Clojure REPL.Unnamed">
     <configuration name="Unnamed" type="ClojureREPL" factoryName="Local">
       <setting name="replType" value="1" />
-      <module name="part2" />
+      <module name="part1" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
@@ -210,31 +225,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92908916-56e2-4da3-9a05-5f61dabbf910" name="Default" comment="" />
-      <created>1513543701872</created>
+      <changelist id="ef23aa8d-a109-4a43-a2f4-d4e9dd337dba" name="Default" comment="" />
+      <created>1513557420288</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1513543701872</updated>
-      <workItem from="1513543705496" duration="1651000" />
+      <updated>1513557420288</updated>
+      <workItem from="1513557422728" duration="2587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1651000" />
+    <option name="totallyTimeSpent" value="2587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45420662" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.456869" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -268,10 +281,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/part2/core.clj">
+    <entry file="file://$PROJECT_DIR$/resources/input">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/part1/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>

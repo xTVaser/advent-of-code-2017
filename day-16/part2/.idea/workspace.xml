@@ -16,7 +16,18 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/part2/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -48,7 +59,7 @@
     <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -61,12 +72,39 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="part2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day-15/part2" />
   </component>
   <component name="ReplState" timestamp="1513479310207">{:repl-history {:ide [], :local [{:command &quot;(def test-steps [\&quot;s1\&quot; \&quot;x3/4\&quot; \&quot;pe/b\&quot;])&quot;, :offset 37, :ns &quot;part2.core&quot;} {:command &quot;\n(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; x 1)\n      (let [result (apply str (last (dance input)))]\n        (println result)\n        (recur (dec i) (result))))))&quot;, :offset 205, :ns &quot;part2.core&quot;} {:command &quot;\n(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 1)\n      (let [result (apply str (last (dance input)))]\n        (println result)\n        (recur (dec i) (result))))))&quot;, :offset 205, :ns &quot;part2.core&quot;} {:command &quot;(defn dance [steps, state]\n  (let [programs (atom state)]\n    (for [step steps]\n      (let [vals (clojure.string/split (apply str (rest step)) #\&quot;/\&quot;)]\n        (cond\n          (= (first step) \\s) (reset! programs\n                                      (spin (deref programs)\n                                            (Integer/parseInt (apply str (rest step)))))\n          (= (first step) \\x) (reset! programs\n                                      (swap (deref programs)\n                                            (Integer/parseInt (nth vals 0))\n                                            (Integer/parseInt (nth vals 1))))\n          (= (first step) \\p) (reset! programs\n                                      (swap (deref programs)\n                                            (.indexOf (deref programs) (first (nth vals 0)))\n                                            (.indexOf (deref programs) (first (nth vals 1)))))\n          :else nil)))))&quot;, :offset 943, :ns &quot;part2.core&quot;} {:command &quot;\n(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 1)\n      (let [result (last (dance input))]\n        (println (apply str result))\n        (recur (dec i) (result))))))&quot;, :offset 205, :ns &quot;part2.core&quot;} {:command &quot;\n(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 1)\n      (let [result (last (dance input state))]\n        (println (apply str result))\n        (recur (dec i) (result))))))&quot;, :offset 211, :ns &quot;part2.core&quot;} {:command &quot;\n(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (last (dance input state))]\n        (println (apply str result))\n        (recur (dec i) (result))))))&quot;, :offset 211, :ns &quot;part2.core&quot;} {:command &quot;(test-steps)&quot;, :offset 12, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (println i)\n      (println (dance input state))\n      (recur (dec i) (char-range \\a \\e)))))&quot;, :offset 187, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [something 1]\n        (println i)\n        (println (dance input state))\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 226, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (dance input state)]\n        (println i)\n        (println result)\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 228, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (last (dance input state))]\n        (println i)\n        (println result)\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 235, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (last (dance input state))]\n        (println i)\n        (println (type result))\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 242, :ns &quot;part2.core&quot;} {:command &quot;(type test-steps)&quot;, :offset 17, :ns &quot;part2.core&quot;} {:command &quot;test-steps&quot;, :offset 10, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (last (dance input state))]\n        (println i)\n        (println (type (into () result)))\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 252, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (last (dance input state))]\n        (println i)\n        (println (into () result))\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 245, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (println i)\n        (println result)\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 245, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (println i)\n        (println (apply str result))\n        (recur (dec i) (char-range \\a \\e)))\n      )))&quot;, :offset 257, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (println i)\n        (println (apply str result))\n        (recur (dec i) (result)))\n      )))&quot;, :offset 247, :ns &quot;part2.core&quot;} {:command &quot;(def some-list '(\\a \\b \\c))&quot;, :offset 27, :ns &quot;part2.core&quot;} {:command &quot;(type some-list)&quot;, :offset 16, :ns &quot;part2.core&quot;} {:command &quot;(def some-list '(\\a \\b \\c \\d \\e))&quot;, :offset 33, :ns &quot;part2.core&quot;} {:command &quot;(dance test-steps some-list)&quot;, :offset 28, :ns &quot;part2.core&quot;} {:command &quot;(type first some-list)&quot;, :offset 22, :ns &quot;part2.core&quot;} {:command &quot;(type (first some-list))&quot;, :offset 24, :ns &quot;part2.core&quot;} {:command &quot;(type '(\\a \\b \\c \\d \\e))&quot;, :offset 24, :ns &quot;part2.core&quot;} {:command &quot;(defn char-range [start end]\n  (into () (map char (range (int start) (inc (int end))))))&quot;, :offset 88, :ns &quot;part2.core&quot;} {:command &quot;(type (char-range \\a \\e))&quot;, :offset 25, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (println i)\n        (println (type (first result)))\n        (recur (dec i) (result)))\n      )))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 1)\n      (let [result (last (dance input state))]\n        (println (apply str result))\n        (recur (dec i) (result))))))&quot;, :offset 210, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (println i)\n        (println (type (first result)))\n        (recur (dec i) result))\n      )))&quot;, :offset 248, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (print (str \&quot;[\&quot; i \&quot;]\&quot;))\n        (println (apply str result))\n        (recur (dec i) result)))))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 1\n         state (char-range \\a \\e)]\n    (when (&lt; i 3)\n      (let [result (into () (last (dance input state)))]\n        (print (str \&quot;[\&quot; i \&quot;]\&quot;))\n        (println (apply str result))\n        (recur (dec i) result)))))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 2\n         state (char-range \\a \\e)]\n    (when (&gt; i 0)\n      (let [result (into () (last (dance input state)))]\n        (print (str \&quot;[\&quot; i \&quot;]\&quot;))\n        (println (apply str result))\n        (recur (inc i) result)))))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 0\n         state (char-range \\a \\e)]\n    (when (&lt; i 3)\n      (let [result (into () (last (dance input state)))]\n        (print (str \&quot;[\&quot; i \&quot;]\&quot;))\n        (println (apply str result))\n        (recur (inc i) result)))))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(let [input test-steps]\n  (loop [i 0\n         state (char-range \\a \\e)]\n    (when (&lt; i 2)\n      (let [result (into () (last (dance input state)))]\n        (print (str \&quot;[\&quot; i \&quot;]\&quot;))\n        (println (apply str result))\n        (recur (inc i) result)))))&quot;, :offset 250, :ns &quot;part2.core&quot;} {:command &quot;(dance test-steps (char-range \\a \\e))&quot;, :offset 37, :ns &quot;part2.core&quot;} {:command &quot;(def temp (dance test-steps (char-range \\a \\e)))&quot;, :offset 48, :ns &quot;part2.core&quot;} {:command &quot;temp&quot;, :offset 4, :ns &quot;part2.core&quot;} {:command &quot;(last temp)&quot;, :offset 11, :ns &quot;part2.core&quot;} {:command &quot;(into () (last temp))&quot;, :offset 21, :ns &quot;part2.core&quot;} {:command &quot;(dance test-steps (last temp))&quot;, :offset 30, :ns &quot;part2.core&quot;} {:command &quot;(-main \&quot;\&quot;)&quot;, :offset 10, :ns &quot;part2.core&quot;} {:command &quot;(-main \&quot;resources/input\&quot;)&quot;, :offset 25, :ns &quot;part2.core&quot;}], :remote []}}</component>
   <component name="RunDashboard">
@@ -184,14 +222,17 @@
       <updated>1513476684137</updated>
       <workItem from="1513476688438" duration="2621000" />
       <workItem from="1513541339862" duration="323000" />
+      <workItem from="1513557233761" duration="128000" />
+      <workItem from="1513561712226" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2944000" />
+    <option name="totallyTimeSpent" value="3133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -200,14 +241,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.456869" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.456869" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25239617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -238,7 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
